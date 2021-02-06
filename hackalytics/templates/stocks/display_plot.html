@@ -1,6 +1,8 @@
+
 {% load static %}
 
 <link rel="stylesheet" type="text/css" href="{% static 'stocks/style.css' %}">
+<link rel="icon" href="{% static 'Chicken2.gif' %}">
 {{plot|safe}}
 {% comment %} <p>
     <label for="select">Select</label>
@@ -15,33 +17,59 @@
 <label for="cars">Choose a car:</label> {% endcomment %}
 
 <fieldset>
-    <legend>Checkboxes</legend>
+    <legend>Options:</legend>
     <form action="{% url 'stocks:index' %}" method="post">
     {% csrf_token %}
-    <div class="checkbox">
-        <input type="checkbox" name="checkbox" id="check-option1" value="option1" />
-        <label for="check-option1">dataseries 1</label>
+    <div class= "grid-container" id = "FormInput">
+        <div id="title0">
+            <p>Oh</p>
+        </div>
+        <div class="checkbox" id="check-opt1">
+            <input type="checkbox" name="checkbox1" id="check-option1" value="option1" />
+            <label for="check-option1">dataseries 1</label>
+        </div>
+        <div class="checkbox" id="check-opt2">
+            <input type="checkbox" name="checkbox" id="check-option2" value="option2" />
+            <label for="check-option2">dataseries 2</label>
+        </div>
+        <div class="checkbox" id="check-opt3">
+            <input type="checkbox" name="checkbox" id="check-option3" value="option3" />
+            <label for="check-option3">dataseries 3</label>
+        </div>
+        <div id="title1">
+            <p>No</p>
+        </div>
+        <div class="checkbox" id="check-opt4">
+            <input type="checkbox" name="checkbox" id="check-option4" value="option4" />
+            <label for="check-option4">parameters 1</label>
+        </div>
+        <div class="checkbox" id="check-opt5">
+            <input type="checkbox" name="checkbox" id="check-option5" value="option5" />
+            <label for="check-option5">parameters 2</label>
+        </div>
+        <div class="checkbox" id="check-opt6">
+            <input type="checkbox" name="checkbox" id="check-option6" value="option6" />
+            <label for="check-option6">parameters 3</label>
+        </div>
+        <div id="title2">
+            <p>Please</p>
+        </div>
+        <div class="checkbox" id="check-opt7">
+            <input type="checkbox" name="checkbox" id="check-option7" value="option7" />
+            <label for="check-option7">RUSSELL</label>
+        </div>
+        <div class="checkbox" id="check-opt8">
+            <input type="checkbox" name="checkbox" id="check-option8" value="option8" />
+            <label for="check-option8">PLEASE</label>
+        </div>
+        <div class="checkbox" id="check-opt9">
+            <input type="checkbox" name="checkbox" id="check-option9" value="option9" />
+            <label for="check-option9">STOP</label>
+        </div>
+        
     </div>
-    <div class="checkbox">
-        <input type="checkbox" name="checkbox" id="check-option2" value="option2" />
-        <label for="check-option2">dataseries 2</label>
-    </div>
-    <div class="checkbox">
-        <input type="checkbox" name="checkbox" id="check-option3" value="option3" disabled />
-        <label for="check-option3">dataseries 3</label>
-    </div>
-    <div class="checkbox">
-        <input type="checkbox" name="checkbox" id="check-option1" value="option1" />
-        <label for="check-option1">parameters 1</label>
-    </div>
-    <div class="checkbox">
-        <input type="checkbox" name="checkbox" id="check-option2" value="option2" />
-        <label for="check-option2">parameters 2</label>
-    </div>
-    <div class="checkbox">
-        <input type="checkbox" name="checkbox" id="check-option3" value="option3" disabled />
-        <label for="check-option3">parameters 3</label>
-    </div>
-    <input type="submit" value="OK">
+    
+    <input id="send" type="submit" value="AHHHHHHH">
+    
     </form>
 </fieldset>
