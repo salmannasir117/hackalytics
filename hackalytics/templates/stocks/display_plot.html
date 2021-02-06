@@ -16,7 +16,7 @@
 
 <fieldset>
     <legend>Checkboxes</legend>
-    <form action="{% url 'stocks:index' %}" method="post">
+    <form action="{% url 'stocks:display_data' %}" method="post">
     {% csrf_token %}
     <div class="checkbox">
         <input type="checkbox" name="checkbox" id="check-option1" value="option1" />
@@ -27,20 +27,20 @@
         <label for="check-option2">dataseries 2</label>
     </div>
     <div class="checkbox">
-        <input type="checkbox" name="checkbox" id="check-option3" value="option3" disabled />
+        <input type="checkbox" name="checkbox" id="check-option3" value="option3"  />
         <label for="check-option3">dataseries 3</label>
     </div>
     <div class="checkbox">
-        <input type="checkbox" name="checkbox" id="check-option1" value="option1" />
-        <label for="check-option1">parameters 1</label>
+        <input type="checkbox" name="checkbox" id="check-option4" value="option4" />
+        <label for="check-option4">parameters 1</label>
     </div>
     <div class="checkbox">
-        <input type="checkbox" name="checkbox" id="check-option2" value="option2" />
-        <label for="check-option2">parameters 2</label>
+        <input type="checkbox" name="checkbox" id="check-option5" value="option5" />
+        <label for="check-option5">parameters 2</label>
     </div>
     <div class="checkbox">
-        <input type="checkbox" name="checkbox" id="check-option3" value="option3" disabled />
-        <label for="check-option3">parameters 3</label>
+        <input type="checkbox" name="checkbox" id="check-option6" value="option6"  />
+        <label for="check-option6">parameters 3</label>
     </div>
     <input type="submit" value="OK">
     </form>
