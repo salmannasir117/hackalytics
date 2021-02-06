@@ -1,0 +1,7 @@
+name: hackalytics
+dependencies:
+- pandas
+- matplotlib
+- mpld3
+- scikit-learn
+- django 
