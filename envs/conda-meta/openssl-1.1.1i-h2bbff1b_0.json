@@ -8,7 +8,7 @@
     "vc >=14.1,<15.0a0",
     "vs2015_runtime >=14.16.27012,<15.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\salma\\anaconda3\\pkgs\\openssl-1.1.1i-h2bbff1b_0",
+  "extracted_package_dir": "C:\\Users\\danny\\Anaconda3\\pkgs\\openssl-1.1.1i-h2bbff1b_0",
   "features": "",
   "files": [
     "Library/bin/c_rehash.pl",
@@ -144,12 +144,12 @@
   "license": "OpenSSL",
   "license_family": "Apache",
   "link": {
-    "source": "C:\\Users\\salma\\anaconda3\\pkgs\\openssl-1.1.1i-h2bbff1b_0",
+    "source": "C:\\Users\\danny\\Anaconda3\\pkgs\\openssl-1.1.1i-h2bbff1b_0",
     "type": 1
   },
   "md5": "9daff3bf17c014b112891cbb95238775",
   "name": "openssl",
-  "package_tarball_full_path": "C:\\Users\\salma\\anaconda3\\pkgs\\openssl-1.1.1i-h2bbff1b_0.conda",
+  "package_tarball_full_path": "C:\\Users\\danny\\Anaconda3\\pkgs\\openssl-1.1.1i-h2bbff1b_0",
   "paths_data": {
     "paths": [
       {
@@ -158,7 +158,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\ci\\openssl_1607536389952\\_h_env",
         "sha256": "3209019fe03fdb96759a1fe7c9264eacb4504a0d8033ca4d7dcb6bb8fc85fa13",
-        "sha256_in_prefix": "3e007c88083cd574b5d276b4987e28df03e872f40a5ee098937a6e20f371dd92",
+        "sha256_in_prefix": "e7556000d1024aeee0b6d077ff04565deafb94012e90f505af348a850c094f2f",
         "size_in_bytes": 6528
       },
       {
@@ -1026,7 +1026,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\ci\\openssl_1607536389952\\_h_env",
         "sha256": "835c5868326383113a8da0dbc6972d0f7d905eaa583ad0a169ec13b9f3c20cc2",
-        "sha256_in_prefix": "33a5703142e047b3f5b1228d3a0c3b4c6356d4d283552ed547b20ebb58be1c4c",
+        "sha256_in_prefix": "d92ad079f15868e1de4f3f1578ffd08c9aeac59cf519284e1cf140dc043cba5f",
         "size_in_bytes": 7851
       },
       {
@@ -1035,7 +1035,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\ci\\openssl_1607536389952\\_h_env",
         "sha256": "f5f473091666911985108a541e9b32de349cd7d1c8ef22a4f9b70b2e6675d780",
-        "sha256_in_prefix": "19fdb5953b429aadec75da8ca6a8ccf07030d9282bd578b69e38e840ab8ba395",
+        "sha256_in_prefix": "37e41356d26df0ee76672101f3473380e325606621022e49a9a054b96c610823",
         "size_in_bytes": 6817
       },
       {

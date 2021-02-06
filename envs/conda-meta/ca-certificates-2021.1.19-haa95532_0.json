@@ -4,7 +4,7 @@
   "channel": "https://repo.anaconda.com/pkgs/main/win-64",
   "constrains": [],
   "depends": [],
-  "extracted_package_dir": "C:\\Users\\salma\\anaconda3\\pkgs\\ca-certificates-2021.1.19-haa95532_0",
+  "extracted_package_dir": "C:\\Users\\danny\\Anaconda3\\pkgs\\ca-certificates-2021.1.19-haa95532_0",
   "features": "",
   "files": [
     "Library/ssl/cacert.pem",
@@ -15,12 +15,12 @@
   "legacy_bz2_md5": "f65168062a28f1755f74c4281fc13fbd",
   "license": "MPL 2.0",
   "link": {
-    "source": "C:\\Users\\salma\\anaconda3\\pkgs\\ca-certificates-2021.1.19-haa95532_0",
+    "source": "C:\\Users\\danny\\Anaconda3\\pkgs\\ca-certificates-2021.1.19-haa95532_0",
     "type": 1
   },
   "md5": "be6f2398b9ef7ee609fb9bf8505a31e7",
   "name": "ca-certificates",
-  "package_tarball_full_path": "C:\\Users\\salma\\anaconda3\\pkgs\\ca-certificates-2021.1.19-haa95532_0.conda",
+  "package_tarball_full_path": "C:\\Users\\danny\\Anaconda3\\pkgs\\ca-certificates-2021.1.19-haa95532_0.conda",
   "paths_data": {
     "paths": [
       {

@@ -6,7 +6,7 @@
   "depends": [
     "python >=3.9,<3.10.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\salma\\anaconda3\\pkgs\\certifi-2020.12.5-py39haa95532_0",
+  "extracted_package_dir": "C:\\Users\\danny\\Anaconda3\\pkgs\\certifi-2020.12.5-py39haa95532_0",
   "features": "",
   "files": [
     "Lib/site-packages/certifi-2020.12.5-py3.9.egg-info/PKG-INFO",
@@ -28,12 +28,12 @@
   "legacy_bz2_md5": "253f2965cabbabbdcc300c0a7b5d1fa2",
   "license": "ISC",
   "link": {
-    "source": "C:\\Users\\salma\\anaconda3\\pkgs\\certifi-2020.12.5-py39haa95532_0",
+    "source": "C:\\Users\\danny\\Anaconda3\\pkgs\\certifi-2020.12.5-py39haa95532_0",
     "type": 1
   },
   "md5": "a7032496f717e7d2314b0fe4396bfcc0",
   "name": "certifi",
-  "package_tarball_full_path": "C:\\Users\\salma\\anaconda3\\pkgs\\certifi-2020.12.5-py39haa95532_0.conda",
+  "package_tarball_full_path": "C:\\Users\\danny\\Anaconda3\\pkgs\\certifi-2020.12.5-py39haa95532_0.conda",
   "paths_data": {
     "paths": [
       {
