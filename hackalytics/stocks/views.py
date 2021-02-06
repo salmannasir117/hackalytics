@@ -1,5 +1,7 @@
 from django.shortcuts import render
 import matplotlib.pyplot as plt, mpld3
+from .models import *
+import pickle
 
 # Create your views here.
 def test_plot(request):
@@ -17,3 +19,16 @@ def test_plot(request):
 
 def test_bootstrap(request):
     return render(request, 'stocks/bootstrap_demo.html', {})
+
+def handle_checkboxes(request):
+    test = GraphData.objects.get(data_series=DataSeries.REAL_GDP.value, parameter_set=ParameterSets.TRADITIONAL.value)
+    pkl = pickle.load(open("/static/stocks/Predictions.pkl", 'rb'))
+    # pkl = pickle.load(open(test.data,'rb'))
+    x = pkl.DATE
+    y = pkl.Predict
+    fig, ax = plt.subplots()
+    temp = ax.plot(x, y)
+    return render(request, 'stocks/display_plot.html', {
+        'plot': mpld3.fig_to_html(fig)
+    })
+    # print("tehmp")

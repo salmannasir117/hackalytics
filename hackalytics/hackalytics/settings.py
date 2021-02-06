@@ -124,5 +124,6 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
+MEDIA_ROOT = STATIC_URL
 import mimetypes
 mimetypes.add_type("text/css", ".css", True) # imported for css library 
