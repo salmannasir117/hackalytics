@@ -1,0 +1,416 @@
+{
+  "build": "py39haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "jinja2",
+    "matplotlib",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\salma\\anaconda3\\pkgs\\mpld3-0.5.2-py39haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/mpld3-0.5.2-py3.9.egg-info/PKG-INFO",
+    "Lib/site-packages/mpld3-0.5.2-py3.9.egg-info/SOURCES.txt",
+    "Lib/site-packages/mpld3-0.5.2-py3.9.egg-info/dependency_links.txt",
+    "Lib/site-packages/mpld3-0.5.2-py3.9.egg-info/requires.txt",
+    "Lib/site-packages/mpld3-0.5.2-py3.9.egg-info/top_level.txt",
+    "Lib/site-packages/mpld3/__about__.py",
+    "Lib/site-packages/mpld3/__init__.py",
+    "Lib/site-packages/mpld3/__pycache__/__about__.cpython-39.pyc",
+    "Lib/site-packages/mpld3/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/mpld3/__pycache__/_display.cpython-39.pyc",
+    "Lib/site-packages/mpld3/__pycache__/_server.cpython-39.pyc",
+    "Lib/site-packages/mpld3/__pycache__/mpld3renderer.cpython-39.pyc",
+    "Lib/site-packages/mpld3/__pycache__/plugins.cpython-39.pyc",
+    "Lib/site-packages/mpld3/__pycache__/urls.cpython-39.pyc",
+    "Lib/site-packages/mpld3/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/mpld3/_display.py",
+    "Lib/site-packages/mpld3/_server.py",
+    "Lib/site-packages/mpld3/js/d3.v3.min.js",
+    "Lib/site-packages/mpld3/js/d3.v5.min.js",
+    "Lib/site-packages/mpld3/js/mpld3.v0.5.2.js",
+    "Lib/site-packages/mpld3/js/mpld3.v0.5.2.min.js",
+    "Lib/site-packages/mpld3/mpld3renderer.py",
+    "Lib/site-packages/mpld3/mplexporter/__init__.py",
+    "Lib/site-packages/mpld3/mplexporter/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/mpld3/mplexporter/__pycache__/_py3k_compat.cpython-39.pyc",
+    "Lib/site-packages/mpld3/mplexporter/__pycache__/convertors.cpython-39.pyc",
+    "Lib/site-packages/mpld3/mplexporter/__pycache__/exporter.cpython-39.pyc",
+    "Lib/site-packages/mpld3/mplexporter/__pycache__/tools.cpython-39.pyc",
+    "Lib/site-packages/mpld3/mplexporter/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/mpld3/mplexporter/_py3k_compat.py",
+    "Lib/site-packages/mpld3/mplexporter/convertors.py",
+    "Lib/site-packages/mpld3/mplexporter/exporter.py",
+    "Lib/site-packages/mpld3/mplexporter/renderers/__init__.py",
+    "Lib/site-packages/mpld3/mplexporter/renderers/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/mpld3/mplexporter/renderers/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/mpld3/mplexporter/renderers/__pycache__/fake_renderer.cpython-39.pyc",
+    "Lib/site-packages/mpld3/mplexporter/renderers/__pycache__/vega_renderer.cpython-39.pyc",
+    "Lib/site-packages/mpld3/mplexporter/renderers/__pycache__/vincent_renderer.cpython-39.pyc",
+    "Lib/site-packages/mpld3/mplexporter/renderers/base.py",
+    "Lib/site-packages/mpld3/mplexporter/renderers/fake_renderer.py",
+    "Lib/site-packages/mpld3/mplexporter/renderers/vega_renderer.py",
+    "Lib/site-packages/mpld3/mplexporter/renderers/vincent_renderer.py",
+    "Lib/site-packages/mpld3/mplexporter/tools.py",
+    "Lib/site-packages/mpld3/mplexporter/utils.py",
+    "Lib/site-packages/mpld3/plugins.py",
+    "Lib/site-packages/mpld3/urls.py",
+    "Lib/site-packages/mpld3/utils.py",
+    ".nonadmin"
+  ],
+  "fn": "mpld3-0.5.2-py39haa95532_0.conda",
+  "legacy_bz2_md5": "6340fa816d25eb2907256fb0568abf82",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\salma\\anaconda3\\pkgs\\mpld3-0.5.2-py39haa95532_0",
+    "type": 1
+  },
+  "md5": "d6b156cc53ebe760090d865f668f8c5b",
+  "name": "mpld3",
+  "package_tarball_full_path": "C:\\Users\\salma\\anaconda3\\pkgs\\mpld3-0.5.2-py39haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/mpld3-0.5.2-py3.9.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "a3140cd9f9cd8a919686c8541451b9603c38e399745f903aa24254035ff0641a",
+        "sha256_in_prefix": "a3140cd9f9cd8a919686c8541451b9603c38e399745f903aa24254035ff0641a",
+        "size_in_bytes": 5472
+      },
+      {
+        "_path": "Lib/site-packages/mpld3-0.5.2-py3.9.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "3c771e6a9e85b262603729b7d78407961e0b72283610bb85c5c56caad9bb1972",
+        "sha256_in_prefix": "3c771e6a9e85b262603729b7d78407961e0b72283610bb85c5c56caad9bb1972",
+        "size_in_bytes": 3468
+      },
+      {
+        "_path": "Lib/site-packages/mpld3-0.5.2-py3.9.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/mpld3-0.5.2-py3.9.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "90c9ce365a235e255567051036372416e664e513d1d1101dc99b0db69bd6ae0a",
+        "sha256_in_prefix": "90c9ce365a235e255567051036372416e664e513d1d1101dc99b0db69bd6ae0a",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "Lib/site-packages/mpld3-0.5.2-py3.9.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "bd09767107ebde40711a82e4fe974588230caf367df46b0c190596f069854d18",
+        "sha256_in_prefix": "bd09767107ebde40711a82e4fe974588230caf367df46b0c190596f069854d18",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "f4c453c7fa52578b5dec8dd0b70b73cf565a15d025a8e3d02a2b2b1aff24f353",
+        "sha256_in_prefix": "f4c453c7fa52578b5dec8dd0b70b73cf565a15d025a8e3d02a2b2b1aff24f353",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6f026ca5f769062c8128bf4f85b148e358e251a83e50885c10a2a0d22a4e8329",
+        "sha256_in_prefix": "6f026ca5f769062c8128bf4f85b148e358e251a83e50885c10a2a0d22a4e8329",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/__pycache__/__about__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac68d7ac55a173092d609336a12af4a73056ed1166021ba62f0e488af03abd10",
+        "sha256_in_prefix": "ac68d7ac55a173092d609336a12af4a73056ed1166021ba62f0e488af03abd10",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1429ae465e336eb2c148308cd150c2d94545de4d4cef68de1d754b664705a40b",
+        "sha256_in_prefix": "1429ae465e336eb2c148308cd150c2d94545de4d4cef68de1d754b664705a40b",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/__pycache__/_display.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a918772751c458eea38bf33d5299d986c5c89f376821163dfb56de380043ae0",
+        "sha256_in_prefix": "2a918772751c458eea38bf33d5299d986c5c89f376821163dfb56de380043ae0",
+        "size_in_bytes": 15771
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/__pycache__/_server.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e30fb41a43340385e381d91eb68c5f4c637b0f10e5292d50d2486854460210e0",
+        "sha256_in_prefix": "e30fb41a43340385e381d91eb68c5f4c637b0f10e5292d50d2486854460210e0",
+        "size_in_bytes": 4094
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/__pycache__/mpld3renderer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7fde5de498cd30c0186fda0f84b0ff56493bc6de6c50f3d9eb59d9669834847",
+        "sha256_in_prefix": "e7fde5de498cd30c0186fda0f84b0ff56493bc6de6c50f3d9eb59d9669834847",
+        "size_in_bytes": 8220
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/__pycache__/plugins.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e9318a9f8b9b3850673aaaca0e3ee12e995eccd464e25e3db7d5f2a1aa4d091",
+        "sha256_in_prefix": "7e9318a9f8b9b3850673aaaca0e3ee12e995eccd464e25e3db7d5f2a1aa4d091",
+        "size_in_bytes": 31274
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/__pycache__/urls.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2e08ff522ab5a1b82489addf9631085514f4aaaf7d8e130d456ab28237d525c",
+        "sha256_in_prefix": "f2e08ff522ab5a1b82489addf9631085514f4aaaf7d8e130d456ab28237d525c",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad842a35573bf1819eb333102133e98925f521fc580eeee04d6d213bc41ea18a",
+        "sha256_in_prefix": "ad842a35573bf1819eb333102133e98925f521fc580eeee04d6d213bc41ea18a",
+        "size_in_bytes": 4090
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/_display.py",
+        "path_type": "hardlink",
+        "sha256": "eb31c3f8de4c1d420be74085097ef0e652d4697e875673ecce98e22e108f25d3",
+        "sha256_in_prefix": "eb31c3f8de4c1d420be74085097ef0e652d4697e875673ecce98e22e108f25d3",
+        "size_in_bytes": 16974
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/_server.py",
+        "path_type": "hardlink",
+        "sha256": "23d7a67163d78556b881a4536f001d4224bc4b927a675847492a6d0d35ede9eb",
+        "sha256_in_prefix": "23d7a67163d78556b881a4536f001d4224bc4b927a675847492a6d0d35ede9eb",
+        "size_in_bytes": 4047
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/js/d3.v3.min.js",
+        "path_type": "hardlink",
+        "sha256": "8ca4da6691fb142cd76283014e887e7c3e61e3b63eff9ebb08eeb5c51d56aafb",
+        "sha256_in_prefix": "8ca4da6691fb142cd76283014e887e7c3e61e3b63eff9ebb08eeb5c51d56aafb",
+        "size_in_bytes": 151665
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/js/d3.v5.min.js",
+        "path_type": "hardlink",
+        "sha256": "bdad5585ef9a965ff25458738309b006058c55f2c78d794d25fbecae35014609",
+        "sha256_in_prefix": "bdad5585ef9a965ff25458738309b006058c55f2c78d794d25fbecae35014609",
+        "size_in_bytes": 237682
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/js/mpld3.v0.5.2.js",
+        "path_type": "hardlink",
+        "sha256": "604e6915f546622bd8c073990457eb5c8f1c2bb4157b8500b2646f88fde030b3",
+        "sha256_in_prefix": "604e6915f546622bd8c073990457eb5c8f1c2bb4157b8500b2646f88fde030b3",
+        "size_in_bytes": 67176
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/js/mpld3.v0.5.2.min.js",
+        "path_type": "hardlink",
+        "sha256": "fbea82295359b16dfcdc570a3940269257ebf2a7cdeff7dbfcc59f86381c0988",
+        "sha256_in_prefix": "fbea82295359b16dfcdc570a3940269257ebf2a7cdeff7dbfcc59f86381c0988",
+        "size_in_bytes": 42920
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mpld3renderer.py",
+        "path_type": "hardlink",
+        "sha256": "0bb928189937a8ea0a9c5de8fb0dd328085a20e3494bbf7eda1ce6e24c46bc88",
+        "sha256_in_prefix": "0bb928189937a8ea0a9c5de8fb0dd328085a20e3494bbf7eda1ce6e24c46bc88",
+        "size_in_bytes": 10361
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "66622b099a76a3f8b8f0bc56e67a89c8cd0cee64e43c0bea82a74a7f80cd1dae",
+        "sha256_in_prefix": "66622b099a76a3f8b8f0bc56e67a89c8cd0cee64e43c0bea82a74a7f80cd1dae",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "753d4be947e3cf1eeef6709a3c562aafc0632f1c7cb8af5501aeb3de25e25d2a",
+        "sha256_in_prefix": "753d4be947e3cf1eeef6709a3c562aafc0632f1c7cb8af5501aeb3de25e25d2a",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/__pycache__/_py3k_compat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab8c5327b45dc7c89c5d0c169958f02cd3bfdd52e5fd6cb7eb57dd771dead630",
+        "sha256_in_prefix": "ab8c5327b45dc7c89c5d0c169958f02cd3bfdd52e5fd6cb7eb57dd771dead630",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/__pycache__/convertors.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "262767e8fcacac54ef8ba45e538796fa06f5a3c7c97a4433ca7955e61ef51a05",
+        "sha256_in_prefix": "262767e8fcacac54ef8ba45e538796fa06f5a3c7c97a4433ca7955e61ef51a05",
+        "size_in_bytes": 1807
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/__pycache__/exporter.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1599e6116759d552166eabe28908ef687395e644be2f5797e5e842b9b9fe3291",
+        "sha256_in_prefix": "1599e6116759d552166eabe28908ef687395e644be2f5797e5e842b9b9fe3291",
+        "size_in_bytes": 9160
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/__pycache__/tools.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "994f0e327fcf7491bc74386ac3e840552258fd2ee78a62846bb0d707268b7a15",
+        "sha256_in_prefix": "994f0e327fcf7491bc74386ac3e840552258fd2ee78a62846bb0d707268b7a15",
+        "size_in_bytes": 1836
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f121361ea99ecddc23351b245c34c6a64694ad7f6264669f34dfbda5b9987430",
+        "sha256_in_prefix": "f121361ea99ecddc23351b245c34c6a64694ad7f6264669f34dfbda5b9987430",
+        "size_in_bytes": 11140
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/_py3k_compat.py",
+        "path_type": "hardlink",
+        "sha256": "0df11b561b9ae4304fc3ebeb6caf56316dcf859ef4ce848a9387055b0516c8ee",
+        "sha256_in_prefix": "0df11b561b9ae4304fc3ebeb6caf56316dcf859ef4ce848a9387055b0516c8ee",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/convertors.py",
+        "path_type": "hardlink",
+        "sha256": "3338e6e18c609186006f39dee32017658815a3239732b664fdc9172516d67b8d",
+        "sha256_in_prefix": "3338e6e18c609186006f39dee32017658815a3239732b664fdc9172516d67b8d",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/exporter.py",
+        "path_type": "hardlink",
+        "sha256": "a27fae2735e7329650f11f02e28405db384b5af825b32bbeeeeb9e2dd25ceb04",
+        "sha256_in_prefix": "a27fae2735e7329650f11f02e28405db384b5af825b32bbeeeeb9e2dd25ceb04",
+        "size_in_bytes": 12430
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/renderers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ec3a4dce55586168c913590b29836ebfe826d4e157910387ae91af70f28bb265",
+        "sha256_in_prefix": "ec3a4dce55586168c913590b29836ebfe826d4e157910387ae91af70f28bb265",
+        "size_in_bytes": 425
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/renderers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "148778c204a47bc6b564fc4d81116c02d3fde74b2ef54ccc9ecfe20ca4101ee7",
+        "sha256_in_prefix": "148778c204a47bc6b564fc4d81116c02d3fde74b2ef54ccc9ecfe20ca4101ee7",
+        "size_in_bytes": 649
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/renderers/__pycache__/base.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8cce4b734e3a9cfa2a5042a5c5e00c47bd3481a0dfea46f67469ebda238289b2",
+        "sha256_in_prefix": "8cce4b734e3a9cfa2a5042a5c5e00c47bd3481a0dfea46f67469ebda238289b2",
+        "size_in_bytes": 14333
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/renderers/__pycache__/fake_renderer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a0648e6e591da695812bdc9bb8c65688c4691508340b9d7581a20e278a6a8b2",
+        "sha256_in_prefix": "1a0648e6e591da695812bdc9bb8c65688c4691508340b9d7581a20e278a6a8b2",
+        "size_in_bytes": 3912
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/renderers/__pycache__/vega_renderer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3be906b7bb38d34f511f5d17edff1df33b7a3e03b0406a22f1258e02e21fb2ee",
+        "sha256_in_prefix": "3be906b7bb38d34f511f5d17edff1df33b7a3e03b0406a22f1258e02e21fb2ee",
+        "size_in_bytes": 4522
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/renderers/__pycache__/vincent_renderer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "878a759f13f2aa0b1a81df4feaf0fc1578cc59eadfa2ace8e3487b7aee79cde0",
+        "sha256_in_prefix": "878a759f13f2aa0b1a81df4feaf0fc1578cc59eadfa2ace8e3487b7aee79cde0",
+        "size_in_bytes": 1889
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/renderers/base.py",
+        "path_type": "hardlink",
+        "sha256": "a583bbf6fd5cbb12fa10254902c8ef6aaab31d9ef9bf163cef5b7fb12b68edcc",
+        "sha256_in_prefix": "a583bbf6fd5cbb12fa10254902c8ef6aaab31d9ef9bf163cef5b7fb12b68edcc",
+        "size_in_bytes": 14637
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/renderers/fake_renderer.py",
+        "path_type": "hardlink",
+        "sha256": "6f4db310307e493cb5e5f41ec7317039da8b5e9254490176a75a87d01d39d95a",
+        "sha256_in_prefix": "6f4db310307e493cb5e5f41ec7317039da8b5e9254490176a75a87d01d39d95a",
+        "size_in_bytes": 2561
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/renderers/vega_renderer.py",
+        "path_type": "hardlink",
+        "sha256": "e1b4a8a3ad7431ce348cd9edb7c066f5e756b970d81ace785a2a27dc7809faea",
+        "sha256_in_prefix": "e1b4a8a3ad7431ce348cd9edb7c066f5e756b970d81ace785a2a27dc7809faea",
+        "size_in_bytes": 5284
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/renderers/vincent_renderer.py",
+        "path_type": "hardlink",
+        "sha256": "ea7c5e1dd51e53f1477edba6d40a1efa1f5aceb2cbc7bd4557803a14117b8c43",
+        "sha256_in_prefix": "ea7c5e1dd51e53f1477edba6d40a1efa1f5aceb2cbc7bd4557803a14117b8c43",
+        "size_in_bytes": 1922
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/tools.py",
+        "path_type": "hardlink",
+        "sha256": "27d9f79263fbfb7c3b28738888fc8056f9302d553a79edf45fe6faddbb2e7d17",
+        "sha256_in_prefix": "27d9f79263fbfb7c3b28738888fc8056f9302d553a79edf45fe6faddbb2e7d17",
+        "size_in_bytes": 1732
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/mplexporter/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e1fd4c8a9203500b693e708c769d1bc8277a26ab127520f08319a8c0038be7d5",
+        "sha256_in_prefix": "e1fd4c8a9203500b693e708c769d1bc8277a26ab127520f08319a8c0038be7d5",
+        "size_in_bytes": 12719
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/plugins.py",
+        "path_type": "hardlink",
+        "sha256": "60b65d9dc07a0d6114659c3f37e0b5205d8d16578bf678f08d30f2c95a209a75",
+        "sha256_in_prefix": "60b65d9dc07a0d6114659c3f37e0b5205d8d16578bf678f08d30f2c95a209a75",
+        "size_in_bytes": 32734
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/urls.py",
+        "path_type": "hardlink",
+        "sha256": "95d5aa4cb565c5c5973f2941f2f6dd3ac9f9d382065d11c98e1be48095f90f86",
+        "sha256_in_prefix": "95d5aa4cb565c5c5973f2941f2f6dd3ac9f9d382065d11c98e1be48095f90f86",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "Lib/site-packages/mpld3/utils.py",
+        "path_type": "hardlink",
+        "sha256": "bd9ae2b160350c9e78d8f3c82d1213348041d3afaa7bfd92298f3bc5b5531447",
+        "sha256_in_prefix": "bd9ae2b160350c9e78d8f3c82d1213348041d3afaa7bfd92298f3bc5b5531447",
+        "size_in_bytes": 4936
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "mpld3",
+  "sha256": "4f644bd0e78a0a1f9d27c57d3b69d7b03ea36dcea71ce60e9786bf6ef9a7a2ac",
+  "size": 194612,
+  "subdir": "win-64",
+  "timestamp": 1612285432667,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/mpld3-0.5.2-py39haa95532_0.conda",
+  "version": "0.5.2"
+}
