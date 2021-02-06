@@ -120,3 +120,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+
+import mimetypes
+mimetypes.add_type("text/css", ".css", True) # imported for css library 

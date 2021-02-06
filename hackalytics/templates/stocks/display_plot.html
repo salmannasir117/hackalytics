@@ -1,1 +1,47 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'stocks/style.css' %}">
 {{plot|safe}}
+{% comment %} <p>
+    <label for="select">Select</label>
+    <select id="select">
+        <optgroup label="Option Group">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </optgroup>
+    </select>
+</p>
+<label for="cars">Choose a car:</label> {% endcomment %}
+
+<fieldset>
+    <legend>Checkboxes</legend>
+    <form action="{% url 'stocks:index' %}" method="post">
+    {% csrf_token %}
+    <div class="checkbox">
+        <input type="checkbox" name="checkbox" id="check-option1" value="option1" />
+        <label for="check-option1">dataseries 1</label>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox" name="checkbox" id="check-option2" value="option2" />
+        <label for="check-option2">dataseries 2</label>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox" name="checkbox" id="check-option3" value="option3" disabled />
+        <label for="check-option3">dataseries 3</label>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox" name="checkbox" id="check-option1" value="option1" />
+        <label for="check-option1">parameters 1</label>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox" name="checkbox" id="check-option2" value="option2" />
+        <label for="check-option2">parameters 2</label>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox" name="checkbox" id="check-option3" value="option3" disabled />
+        <label for="check-option3">parameters 3</label>
+    </div>
+    <input type="submit" value="OK">
+    </form>
+</fieldset>
