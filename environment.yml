@@ -5,3 +5,4 @@ dependencies:
 - mpld3
 - scikit-learn
 - django 
+- beautifulsoup4

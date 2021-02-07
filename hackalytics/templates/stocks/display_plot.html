@@ -1,5 +1,9 @@
-<header class="intro">Novel, Experimental, and Traditional GDP Approximation In Numbers(<b id="bold">NET GAIN</b>)</header>
 {% load static %}
+
+<header class="intro">Novel, Experimental, and Traditional GDP Approximation In Numbers(<b id="bold">NET GAIN</b>)
+{% comment %} <script src="{% static 'stocks/color.js' %}" /> {% endcomment %}
+
+</header>
 
 {% comment %} Link stylesheets, icon {% endcomment %}
 <link rel="stylesheet" type="text/css" href="{% static 'stocks/style.css' %}">
@@ -11,6 +15,7 @@
 <div id = "graph">
 {{plot|safe}}
 </div>
+
 
 <p class="traditional" >
 Our linear regression machine learning model, titled <b id="bold">NET GAIN</b> (Novel, 
@@ -100,3 +105,4 @@ potential for these experimental indicators, and demands further research.
     </form>
 </fieldset>
 <p>References from: https://fred.stlouisfed.org/ , https://www.bls.gov, https://data.oecd.org, and Yahoo Stocks<p>
+
