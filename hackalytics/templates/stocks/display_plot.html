@@ -1,15 +1,51 @@
+<header class="intro">Novel, Experimental, and Traditional GDP Approximation In Numbers(<b id="bold">NET GAIN</b>)</header>
 {% load static %}
 
 {% comment %} Link stylesheets, icon {% endcomment %}
 <link rel="stylesheet" type="text/css" href="{% static 'stocks/style.css' %}">
 <link rel="icon" href="{% static 'Chicken2.gif' %}">
 
+
+<div class="grid-container2" id = "TopSection">
 {% comment %} Plot Graph {% endcomment %}
+<div id = "graph">
 {{plot|safe}}
+</div>
+
+<p class="traditional" >
+Our linear regression machine learning model, titled <b id="bold">NET GAIN</b> (Novel, 
+Experimental, Traditional GDP Approximation In Numbers) was 
+trained on various sets of hyperparameters. Utilizing traditional, 
+tried-and-true indicators of Gross Domestic Product (GDP), 
+we have trained our model to predict change in GDP over time. 
+NET GAIN leverages (Manufacturing) Layoff rate, 
+New orders for consumer goods and materials, 
+Number of new building permits for private housing, 
+Change in money supply as the hyperparameters.
+</p>
+<p class="novel" >
+Our <b id="bold">NET GAIN</b> model also was trained on Novel hyperprameters. These 
+parameters are what we consider to be predictors that are highly 
+overlooked by the top-level, professional economists. Now, utilizing 
+the power of internet and data science, these novel parameters (Change 
+House Permits, Change Money Stock, Change stocks Change Percent Savings) 
+are now revealed.
+</p>
+<p class="experimental" >
+<b id="bold">NET GAIN</b> also leverages "experimental" data - hyperparameters that are 
+used to predict GDP that are novel and so unexpected that they must be 
+labeled experimental. Hyperparameters such as Change in Consumer 
+Confidence, Change Business in Confidence, and Change in Gold Value have 
+rarely, if ever, been used as identifiers to GDP. <b id="bold">NET GAIN</b> suggests 
+potential for these experimental indicators, and demands further research.
+</p>
+</div>
+
+<div class="square"></div>
 
 {% comment %} Begin checkbox form {% endcomment %}
 <fieldset>
-    <legend>Options:</legend>
+    <legend id="opts">Options:</legend>
     <form action="{% url 'stocks:display_data' %}" method="post">
     {% csrf_token %}
     <div class= "grid-container" id = "FormInput">
@@ -22,11 +58,11 @@
         </div>
         <div class="checkbox" id="check-opt2">
             <input type="checkbox" name="checkbox" id="check-option2" value="option2" />
-            <label for="check-option2">Nominal</label>
+            <label for="check-option2">Novel</label>
         </div>
         <div class="checkbox" id="check-opt3">
             <input type="checkbox" name="checkbox" id="check-option3" value="option3" />
-            <label for="check-option3">Unorthodox</label>
+            <label for="check-option3">Expiremental</label>
         </div>
         <div id="title1">
             <p>Nominal GDP (converted)</p>
@@ -37,11 +73,11 @@
         </div>
         <div class="checkbox" id="check-opt5">
             <input type="checkbox" name="checkbox" id="check-option5" value="option5" />
-            <label for="check-option5">Nominal</label>
+            <label for="check-option5">Novel</label>
         </div>
         <div class="checkbox" id="check-opt6">
             <input type="checkbox" name="checkbox" id="check-option6" value="option6" />
-            <label for="check-option6">Unorthodox</label>
+            <label for="check-option6">Expiremental</label>
         </div>
         <div id="title2">
             <p>Real GDP</p>
@@ -52,13 +88,15 @@
         </div>
         <div class="checkbox" id="check-opt8">
             <input type="checkbox" name="checkbox" id="check-option8" value="option8" />
-            <label for="check-option8">Nominal</label>
+            <label for="check-option8">Novel</label>
         </div>
         <div class="checkbox" id="check-opt9">
             <input type="checkbox" name="checkbox" id="check-option9" value="option9" />
-            <label for="check-option9">Unorthodox</label>
+            <label for="check-option9">Expiremental</label>
         </div>
+        <input id="send" type="submit" value="Submit">
     </div>
-    <input id="send" type="submit" value="Submit">
+    
     </form>
 </fieldset>
+<p>References from: https://fred.stlouisfed.org/ , https://www.bls.gov, https://data.oecd.org, and Yahoo Stocks<p>
