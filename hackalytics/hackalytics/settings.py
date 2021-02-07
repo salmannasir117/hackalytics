@@ -122,7 +122,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
+    BASE_DIR / "static" / 'pickles',
+    
 ]
 
+MEDIA_ROOT = STATIC_URL
 import mimetypes
 mimetypes.add_type("text/css", ".css", True) # imported for css library 
