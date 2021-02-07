@@ -52,7 +52,8 @@ def handle_checkboxes(request):
                    y['Pickle' + str(i)] = [pkl.Predict, i, name[i - 1]]
 
     # plot data
-    fig = plots(x,y)
+    if y is not None and x is not None:
+        fig = plots(x,y)    
     # html_string = mpld3.fig_to_html(fig) 
     # soup = BeautifulSoup(html_string, 'html.parser')
     # for text_tag in soup.findAll('text'):
