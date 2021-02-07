@@ -124,7 +124,9 @@ body {
   margin-left: 100px;
 }
   
- 
+ .tick, text {
+   fill: rgb(255, 255, 255);
+ }
 
 
   
