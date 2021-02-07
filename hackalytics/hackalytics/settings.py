@@ -122,6 +122,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
+    BASE_DIR / "static" / 'pickles',
+    
 ]
 
 MEDIA_ROOT = STATIC_URL
