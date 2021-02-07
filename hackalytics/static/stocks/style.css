@@ -1,0 +1,15 @@
+@import "../hiq.min.css";
+@import "../variables.css";
+/* @media (prefers-color-scheme: dark) {
+    --hiq-color-gray-1: hsl(220, 10%, 98%);
+  } */
+  :root {
+    --hiq-color-gray-1: hsl(220, 10%, 5%);
+    --hiq-color-gray-5: hsl(220, 10%, 60%);
+    
+    /* --hiq-button-background-color: lightgray; */
+  }
+  body {
+      background: var(--hiq-color-gray-1);
+      color: var(--hiq-color-gray-5);
+  }
