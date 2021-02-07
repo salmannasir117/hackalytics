@@ -3,37 +3,48 @@
  
 /* enable dark mode */
 body {
-    background-color: var(--hiq-color-gray-1);
+    background-color: var(--hiq-color-gray-2);
     color: var(--hiq-color-gray-5);
     
 }
 /* determine order for checkboxes */
+/* colors = ['r','c','m','y','w', 'dodgerblue', '#5c6370', 'chocolate','purple'] */
+
 #check-opt1{
   grid-row: 2;
+  color: red;
 }
 #check-opt2{
   grid-row: 3;
+  color: cyan;
 }
 #check-opt3{
   grid-row: 4;
+  color: magenta;
 }
 #check-opt4{
   grid-row: 2;
+  color: yellow;
 }
 #check-opt5{
   grid-row: 3;
+  color: white;
 }
 #check-opt6{
   grid-row: 4;
+  color: dodgerblue;
 }
 #check-opt7{
   grid-row: 2;
+  color: #5c6370;
 }
 #check-opt8{
   grid-row: 3;
+  color: chocolate;
 }
 #check-opt9{
   grid-row: 4;
+  color: purple;
 }
 #title0{
   grid-row: 1;
@@ -44,13 +55,73 @@ body {
 #title2{
   grid-row: 1;
 }
-
+#send{
+ grid-row: 5;
+ grid-column: 2;
+ width: 100px;
+}
+#opts{
+  margin-left: 100px;
+}
+#bold{
+  text-shadow:10px;
+  color: green;
+}
+#graph{
+  
+  grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 7;
+}
+.intro{
+  font-size: 50px;
+  text-align: center;
+}
+.square{
+  width: 50px;
+  height: 5px;
+  background-color: red;
+  z-index: -1;
+  margin-left: 100px;
+}
 /* Set up grid for texboxes */
 .grid-container{
   left: 250px;
   display: grid;
   grid-template-columns: 250px 250px 250px;
   padding-left: 100px;
+  margin-left: 100px;
+}
+
+.traditional{
+  padding-top: 100px;
+  width: 1200px;
+  grid-column: 3;
+  grid-row: 1;
+  font-size: 25px;
+  text-align: center;
+}
+.novel{
+  padding-top: 100px;
+  width: 1200px;
+  grid-column: 3;
+  grid-row: 2;
+  font-size: 25px;
+  text-align: center;
+}
+.experimental{
+  padding-top: 100px;
+  width: 1200px;
+  grid-column: 3;
+  grid-row: 3;
+  font-size: 25px;
+  text-align: center;
+}
+.grid-container2{
+  display: grid;
+  grid-template-columns: auto 0px;
+  grid-template-rows: 220px 200px;
+  margin-left: 100px;
 }
   
  
