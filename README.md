@@ -2,7 +2,7 @@
 hack hack hack!
 
 # Usage
-conda env create -f environment.yml  
+```conda env create -f environment.yml  
 conda activate hackalytics  
 cd hackalytics  
-python manage.py runserver  
+python manage.py runserver```
