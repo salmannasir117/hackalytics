@@ -5,4 +5,5 @@ hack hack hack!
 ```conda env create -f environment.yml  
 conda activate hackalytics  
 cd hackalytics  
-python manage.py runserver```
+python manage.py runserver
+```
